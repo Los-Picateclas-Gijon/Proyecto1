@@ -1,0 +1,24 @@
+
+section article img{
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+
+}
+.tools img{
+    width: 60px;
+}
+
+.avatares{
+    display: flex;
+    flex-direction: row;
+    border: 2px solid red;
+    justify-content: space-evenly;
+}
+.avatares p{
+    display: flex;
+    flex-direction: row;
+    border: 2px solid red;
+    justify-content: space-evenly
+
+}
