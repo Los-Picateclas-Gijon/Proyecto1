@@ -1,4 +1,5 @@
 
+
 section article img{
     width: 200px;
     display: block;
@@ -11,11 +12,12 @@ section article img{
 
 .avatares{
     display: flex;
-    flex-direction: row;
+    /*flex-direction: row;*/
     border: 2px solid red;
     justify-content: space-evenly;
 }
-.avatares p{
+
+.avatares p{ /*creo que aqui hay que reagrupar de otra manera. no por p, por article*/
     display: flex;
     flex-direction: row;
     border: 2px solid red;
