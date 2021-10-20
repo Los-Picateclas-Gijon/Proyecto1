@@ -1,0 +1,16 @@
+header{
+    font-family: 'Mansalva', cursive;
+    width: 100%;
+    border-bottom: 3px solid #93e3fc;
+}
+
+h1, h3{
+    text-align: center;
+}
+
+img{
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+}
+
