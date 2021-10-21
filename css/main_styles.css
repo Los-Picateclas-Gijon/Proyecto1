@@ -1,7 +1,7 @@
 
 
 section article img{
-    width: 200px;
+    width: 150px;
     display: block;
     margin: 0 auto;
 
@@ -12,15 +12,27 @@ section article img{
 
 .avatares{
     display: flex;
-    /*flex-direction: row;*/
     border: 2px solid red;
     justify-content: space-evenly;
 }
 
-.avatares p{ /*creo que aqui hay que reagrupar de otra manera. no por p, por article*/
-    display: flex;
-    flex-direction: row;
+.avatares p{
+   text-align: center;
     border: 2px solid red;
-    justify-content: space-evenly
-
 }
+article{
+    background-color: #93e3fc;
+    width: 250px;
+    height: 250px;
+   
+   border-radius: 50%;
+}
+.tools{
+   display: flex;
+   border: 2px solid red;
+   justify-content: flex-start;
+}
+.tools img {
+  display:block;
+   border: 2px solid red;
+ 
