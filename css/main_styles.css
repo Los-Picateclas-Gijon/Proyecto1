@@ -1,5 +1,6 @@
-
-
+main section {
+    margin: 20px 0;
+}
 section article img{
     width: 150px;
     display: block;
@@ -13,6 +14,8 @@ section article img{
 .avatares{
     display: flex;
     justify-content: space-evenly;
+    padding: 15px;
+    flex-wrap: wrap;
 }
 
 .avatares p{
@@ -22,14 +25,16 @@ article{
     background-color: #93e3fc;
     width: 250px;
     height: 250px;
-   
-   border-radius: 50%;
+    border-radius: 50%;
+    margin: 10px;
 }
 .tools{
    display: flex;
    justify-content: center;
+   padding: 20px;
 }
 .tools img {
-  display:block;
-  border: 2px solid red;
+   border: 2px solid #93e3fc;
+   border-radius: 50%;
+   margin: 15px;
 }

@@ -1,9 +1,6 @@
 footer{
     text-align: center;
     border-top: 3px solid #93e3fc;
-
-    
-}
-.enlace_web{
-    color: blue;
+    margin-top: 50px; 
+    padding: 20px;
 }
