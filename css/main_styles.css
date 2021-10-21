@@ -1,5 +1,8 @@
 main section {
     margin: 20px 0;
+    font-family: 'Roboto', serif;
+    font-style: italic;
+    color: rgb(49, 49, 49);
 }
 section article img{
     width: 150px;
@@ -38,3 +41,6 @@ article{
    border-radius: 50%;
    margin: 15px;
 }
+
+ 
+
