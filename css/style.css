@@ -2,7 +2,7 @@
 @import url(main_styles.css);
 @import url(footer_styles.css);
 
-html, body, main, header,footer, h1 {
+html, body, main, header,footer, h1, section {
 	margin: 0;
 	padding: 0;}
 /*html, body, div, span, applet, object, iframe,

@@ -1,3 +1,6 @@
+main {
+    width: 100%;
+}
 main section {
     
     font-family: 'Roboto', serif;
@@ -19,7 +22,7 @@ p.name {
 .extra {
     margin: 40px 0;
     background-color: #93e3fc;
-    width: 100%;
+    
     padding: 15px;
     text-align: center;
 }
