@@ -1,8 +1,11 @@
 main section {
-    margin: 20px 0;
+    
     font-family: 'Roboto', serif;
     font-style: italic;
     color: rgb(49, 49, 49);
+}
+h2{
+    margin: 25px 0;
 }
 section article img{
     width: 150px;
@@ -10,10 +13,22 @@ section article img{
     margin: 0 auto;
 
 }
-.tools img{
-    width: 60px;
+p.name {
+    font-weight: bold;
 }
-
+.extra {
+    margin: 40px 0;
+    background-color: #93e3fc;
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+}
+i.fa-angry, i.fa-smile-beam {
+    font-size: 50px;
+    color: grey;
+    margin: 15px;
+    
+}
 .avatares{
     display: flex;
     justify-content: space-evenly;
@@ -29,14 +44,18 @@ article{
     width: 250px;
     height: 250px;
     border-radius: 50%;
-    margin: 10px;
+    margin: 5px;
 }
+
+
 .tools{
    display: flex;
    justify-content: center;
-   padding: 20px;
+   flex-wrap: wrap;
+   padding: 10px;
 }
-.tools img {
+.tools img { 
+   width: 60px;
    border: 2px solid #93e3fc;
    border-radius: 50%;
    margin: 15px;
