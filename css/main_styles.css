@@ -12,13 +12,11 @@ section article img{
 
 .avatares{
     display: flex;
-    border: 2px solid red;
     justify-content: space-evenly;
 }
 
 .avatares p{
    text-align: center;
-    border: 2px solid red;
 }
 article{
     background-color: #93e3fc;
@@ -29,10 +27,9 @@ article{
 }
 .tools{
    display: flex;
-   border: 2px solid red;
-   justify-content: flex-start;
+   justify-content: center;
 }
 .tools img {
   display:block;
-   border: 2px solid red;
- 
+  border: 2px solid red;
+}
