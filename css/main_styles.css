@@ -1,7 +1,7 @@
 main {
     width: 100%;
 }
-main section {
+main section.avatares {
     
     font-family: 'Roboto', serif;
     font-style: italic;
@@ -10,7 +10,7 @@ main section {
 h2{
     margin: 25px 0;
 }
-section article img{
+section.avatares section img{
     width: 150px;
     display: block;
     margin: 0 auto;
@@ -42,7 +42,7 @@ i.fa-angry, i.fa-smile-beam {
 .avatares p{
    text-align: center;
 }
-article{
+.avatares section{
     background-color: #93e3fc;
     width: 250px;
     height: 250px;
